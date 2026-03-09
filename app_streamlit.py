@@ -14,7 +14,7 @@ st.markdown("""
 Welcome to the diagnostic predictor tool. 
 Please enter the patient's vitals and laboratory metrics in the **sidebar on the left** to generate a real-time risk assessment.
 """)
-st.caption("Enter the patient's measurements and clit Predict.")
+st.caption("Enter the patient's measurements and click Predict.")
 st.divider()
 
 @st.cache_resource
@@ -143,4 +143,5 @@ if predict_button:
     st.caption("For educational use only. Not a medical device.")
 
 else:
+
     st.info("Please enter the patient details in the sidebar and click 'Generate Risk Assessment'.")
